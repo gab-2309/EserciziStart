@@ -27,9 +27,10 @@ public class EsercizioArray7 {
         int conteggioLista = 0;
 
         for (int i = 0; i < listaNomi.length; i++) {
-            if (listaNomi[i].equals(nome)) {
+            if (listaNomi[i].toLowerCase().equals(nome)) {
                 conteggioLista++;
                 System.out.println("L'invitato " + nome + " è nella lista, in posizione " + conteggioLista);
+                break;
             }
             conteggioLista++;
             if (conteggioLista == listaNomi.length) {
