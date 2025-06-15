@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Minimum_of_Two {
     public static void main(String[] args) {
+
 //23
 //6421206 7659032
 //7492841 -9994130

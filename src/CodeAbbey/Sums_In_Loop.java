@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Sums_In_Loop {
     public static void main(String[] args) {
+
 //12
 //866383 519455
 //146901 635528

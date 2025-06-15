@@ -8,7 +8,7 @@
 //6. Ricercare un film per titolo
 //-> Utente può digitare un titolo, controllare se è registrato oppure no.
 //Utilizzare il metodo equals() per confrontare due stringhe
-//X. Esci dal programma
+//X. Esci dal programma.
 
 import java.util.Scanner;
 

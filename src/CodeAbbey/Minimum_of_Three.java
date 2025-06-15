@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Minimum_of_Three {
     public static void main(String[] args) {
+
 //25
 //-4713225 7977593 -5632777
 //9276275 -2610175 7701131
