@@ -171,7 +171,6 @@ public class CalcoloCodiceFiscale2 {
                 }
             }
         }
-        
 
         System.out.println(primaParteCodice);
 

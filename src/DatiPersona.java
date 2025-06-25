@@ -46,5 +46,4 @@ public class DatiPersona {
         return this.comuneNascita;
     }
 
-
 }
