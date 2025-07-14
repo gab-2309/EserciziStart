@@ -1,10 +1,20 @@
 public class HelloWorld {
     public static void main(String[] args) {
 
-        String hello = "Hello, World";
-        int minuti = 2;
-        double numeroGrande = 1.43956043956044;
-        System.out.format("Ho imparato a scrivere %s in %d minuti e %.3f secondi", hello, minuti, numeroGrande );
+        System.out.println(metodoBelo(50,10));
 
+        int[][] numeri = new int[3][3];
+        for(int i = 0; i < numeri.length; i++){
+            for(int j = 0; j < numeri[0].length; j++){
+                System.out.print(numeri[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+    }
+
+    public static String metodoBelo (int x, int y){
+
+        return(x > y) ? "Maggiore" : "Minore";
     }
 }
